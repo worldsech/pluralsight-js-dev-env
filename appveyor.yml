@@ -1,4 +1,4 @@
-# Test against this version of node.js
+# Test against this version of Node.js
 environment:
   matrix:
     # node.js
@@ -12,7 +12,7 @@ environment:
     - npm install
 
     # Post-install test scripts.
-    test_script:
+    test-script:
      # Output useful info for debugging.
      - node --version
      - npm --version
